@@ -1,0 +1,12 @@
+@import url("carousel.css");
+
+.mainMenu li a{
+    font-size: 20px;
+}
+
+.logo{
+    max-width: 200px;
+}
+header{
+    background-color: #ffc66d;
+}
