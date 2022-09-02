@@ -7,11 +7,11 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .sombra {
-  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(0,0,0,0.74);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5), 2px 2px 6px rgba(0, 0, 0, 0.74);
 }
 
 /* Carousel base class */
@@ -34,7 +34,6 @@ body {
   min-width: 100%;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -48,11 +47,10 @@ body {
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 /* rtl:end:ignore */
-
 
 /* Featurettes
 ------------------------- */
@@ -66,9 +64,8 @@ body {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
