@@ -19,17 +19,16 @@
             <a href="/"><img class='logo' src="images/logo.png"></a>
             <ul class="mainMenu">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
-                        href="/home/rebonatto/PlusPizza.github.io/index.html">Home</a>
+                    <a class="nav-link" href="/#">+Pizza</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="quemSomos.html">Sobre</a>
+                    <a class="nav-link" href="/#pedidas">+Pedidas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="precos.html">Preços</a>
+                    <a class="nav-link" href="/#mapa">+Onde fica?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contato</a>
+                    <a class="nav-link" href="/#info">+Informações</a>
                 </li>
             </ul>
         </div>
@@ -37,56 +36,41 @@
     <!-- BLOCO Banner-->
     <div class="banner" style="background-image: url(images/banner_pp.jpg)">
     </div>
-    <main class="content">
-        <!-- BLOCO-->
+    <main class="content" id="pedidas">
+        <!-- BLOCO +Pedidas-->
+        <h2 class="title">+Pedidas da +Pizza</h2>
         <div class="row">
-            <div class="col-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
-
-                <h2>Heading</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel. This is
-                    the first column.
+            <div class="col-4 pedidas">
+                <div class="circle">
+                    <img class="pizza" src="./images/pizzaqueijo.png" alt="pizza">
+                </div>
+                <h2>+queijo</h2>
+                <p>Um kg de queijo em cima da pizza, hmmm que dorzinha no coração.
                 </p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div>
-            <div class="col-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
-
-                <h2>Heading</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
-                    second column.
+            <div class="col-4 pedidas">
+                <div class="circle">
+                    <img class="pizza" src="./images/pizzapimenta.png" alt="pizza">
+                </div>
+                <h2>+pimenta</h2>
+                <p>Cada mordida é uma ardida diferente, tem gosto pra tudo...
                 </p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div>
-            <div class="col-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
-
-                <h2>Heading</h2>
-                <p>And lastly this, the third column of representative placeholder content.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            <div class="col-4 pedidas">
+                <div class="circle">
+                    <img class="pizza" src="./images/pizzadoce.jpeg" alt="pizza">
+                </div>
+                <h2>+doce</h2>
+                <p>Diabetes? não? Então meta ficha nessa pizza transbordando de nuttela</p>
             </div>
         </div>
-<!-- BLOCO-->
-        <div class="row featurette">
-            <div class="col-md-7">
+
+        <!-- BLOCO Endereço-->
+        <div class="row" id="mapa">
+            <div class="col-4 align-right">
+                <img class='logo-info' src="images/logo.png">
+            </div>
+            <div class="col-8">
                 <h2 class="featurette-heading mt-2">História da Marca. <span class="text-muted">Anos de qualidade e
                         confiança</span>
                 </h2>
@@ -98,14 +82,11 @@
                     com um pequeno empréstimo de 600 dólares cortesia da mãe.
                 </p>
             </div>
-            <div class="col-md-5 align-self-center">
-                <img class='w-100 logo-info' src="images/logo.png">
-
-            </div>
         </div>
-<!-- BLOCO-->
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
+
+        <!-- BLOCO Informações-->
+        <div class="row" id="info">
+            <div class="col-8 order-md-2">
                 <h2 class="featurette-heading mt-2">História da <span class="text-muted">Pizza.</span></h2>
                 <p class="lead">
                     Registos históricos sugerem que já no antigo Egipto, Grécia e Roma se comiam pães planos muito
@@ -130,20 +111,22 @@
                     para uma boa pizza.
                 </p>
             </div>
-            <div class="col-md-5 order-md-1">
+            <div class="col-4 order-md-1">
                 <img src="./images/pizzaPepperoni.jpg" class="img-content">
             </div>
         </div>
-<!-- BLOCO-->
-        <div class="row featurette">
+
+        <!-- BLOCO História-->
+        <div class="row">
             <div class="col-12 cta-banner">
                 <h2 class="featurette-heading mt-0">Fome? Faça seu pedido com desconto de 20%</h2>
-            </br>
-                <p class="lead mb-0"> Ligue agora e diga "da pra 20 comer?"</p>
+                </br>
+                <p class="lead">*Cupons limitados</p>
+                <a class="cta-button" href="tel:499999999"> Ligue agora</a>
             </div>
         </div>
     </main>
-<!-- Rodapé-->
+    <!-- Rodapé-->
     <footer class="container">
         <p class="float-end"><a href="#">Voltar ao topo</a></p>
         <p>1958–2022 &copy;PlusPizza Todos os direitos reservados.</p>
